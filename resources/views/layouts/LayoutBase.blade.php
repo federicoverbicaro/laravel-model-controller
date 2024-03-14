@@ -15,11 +15,14 @@
 {{-- inserimento dei componenti statici dell'layout  --}}
 <body>
 
+
     {{-- header --}}
 
-{{-- @include('componets.HeaderBase') esempio di componente statico per tutte le pagine di atterraggio --}}
+ {{-- @include('componets.HeaderBase') --}}
 
     {{-- main --}}
+
+    @yield('titolo')
 
 
 
